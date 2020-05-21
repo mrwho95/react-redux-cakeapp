@@ -5,6 +5,7 @@ import logo from "./logo.svg";
 import "./App.css";
 import CakeContainer from "./components/CakeContainer";
 import HooksCakeContainer from "./components/HooksCakeContainer";
+import IceCreamContainer from "./components/iceCreamContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <div className="App">
         <HooksCakeContainer />
         <CakeContainer />
+        <IceCreamContainer />
       </div>
     </Provider>
   );

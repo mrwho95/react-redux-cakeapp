@@ -1,10 +1,12 @@
 import React from "react";
 import { useSelector, useDispatch } from "react-redux";
 import { buyCake } from "../redux";
+//import {somethings} from "library package";
+//import {somethings} from "path"
 
 function HooksCakeContainer() {
   //selector function receive redux state argument
-  const numOfCakes = useSelector((state) => state.numOfCakes);
+  const numOfCakes = useSelector((state) => state.cake.numOfCakes); //cake term from root reducer
 
   //this function returns a reference to the dispatch function from the redux store
   const dispatch = useDispatch();
